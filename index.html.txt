@@ -2,61 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XCore Cloud</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Your Site Title</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    <div id="loading-screen">
-        <div id="loading-logo">⚡ XCore Cloud Loading... ⚡</div>
-    </div>
 
-    <audio id="aiGreeting">
-        <source src="ai-voice-effect.mp3" type="audio/mp3">
-    </audio>
+    <!-- Your page content goes here -->
+    <h1>Welcome to My Website</h1>
+    <p>This is a sample site.</p>
 
-    <audio id="bgMusic" autoplay loop>
-        <source src="futuristic-music.mp3" type="audio/mp3">
-    </audio>
-
-    <header>
-        <h1>⚡ XCore Cloud ⚡</h1>
-        <p>Game. Stream. Create. Educate.</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#gamers">🎮 Gamers</a></li>
-            <li><a href="#streamers">📺 Streamers</a></li>
-            <li><a href="#creators">🎨 Creators</a></li>
-            <li><a href="#educators">📚 Educators</a></li>
-        </ul>
-    </nav>
-
-    <section id="gamers">
-        <h2>🎮 Gamers Hub</h2>
-        <p>Connect, compete, and dominate the leaderboard!</p>
-    </section>
-
-    <section id="streamers">
-        <h2>📺 Streamers Arena</h2>
-        <p>Go live, share content, and engage your audience.</p>
-    </section>
-
-    <section id="creators">
-        <h2>🎨 Creative Space</h2>
-        <p>Build, design, and showcase your talents!</p>
-    </section>
-
-    <section id="educators">
-        <h2>📚 Educators Lounge</h2>
-        <p>Teach, share knowledge, and inspire the next generation.</p>
-    </section>
-
-    <footer>
-        <p>🚀 Powered by XCore Cloud | Gaming | Streaming | Creating | Learning</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link to JS file at the end -->
 </body>
 </html>
