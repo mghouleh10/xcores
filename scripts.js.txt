@@ -1,0 +1,29 @@
+window.onload = function() {
+    let aiGreeting = document.getElementById("aiGreeting");
+    aiGreeting.volume = 0; // Start silent
+    aiGreeting.play();
+
+    let fadeIn = setInterval(function() {
+        if (aiGreeting.volume < 1) {
+            aiGreeting.volume += 0.05;
+        } else {
+            clearInterval(fadeIn);
+        }
+    }, 200);
+
+    setTimeout(() => {
+        document.getElementById("loading-screen").style.display = "none";
+    }, 4000); // Adjust timing for sound
+
+    let bgMusic = document.getElementById("bgMusic");
+    bgMusic.volume = 0;
+    bgMusic.play();
+
+    let musicFadeIn = setInterval(function() {
+        if (bgMusic.volume < 0.5) {
+            bgMusic.volume += 0.05;
+        } else {
+            clearInterval(musicFadeIn);
+        }
+    }, 200);
+};
